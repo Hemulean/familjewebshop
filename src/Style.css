@@ -2,3 +2,22 @@
 .miscImg{
     height:50px;
 }
+/* .nav-scroller{
+ 
+    column-gap: 50px;
+  } */
+  .nav{
+    position:sticky;
+    top:0;
+  }
+  .navbar-color{
+    background-color:#BCCCB2;
+  
+
+  }
+  .nav-scrolled{
+    /* background-color: transparent; */
+    background-color:#BCCCB2;
+    opacity:0.4;
+    box-shadow: 3px 3px 6px gray;
+  }

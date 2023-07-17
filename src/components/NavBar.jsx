@@ -1,9 +1,29 @@
-import "../App.css";
-import React from "react";
+// import "../App.css";
+import "../Style.css";
+const navEl = document.getElementsByClassName("nav");
+import React, { useEffect, useState } from "react";
 function NavBar() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 1) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="bg-mid-green px-4">
-      <ul className="flex px-3 py-2 font-medium   justify-between">
+    <div className={`px-4 nav ${isScrolled ? "nav-scrolled" : "navbar-color"}`}>
+      <ul className="flex px-3 py-2 font-medium justify-around">
         <li>
           <a
             href="#"
@@ -49,4 +69,5 @@ function NavBar() {
     </div>
   );
 }
+
 export default NavBar;
