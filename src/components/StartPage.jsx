@@ -1,9 +1,10 @@
 import "../Style.css";
 import React from "react";
+import Cards from "./Cards";
 function Content() {
   return (
-    <div className="border my-2 mx-5 text-3xl py-10 bg-light-green">
-      <h1>Content</h1>
+    <div className="border w-full  text-3xl py-10 bg-light-green">
+      <Cards />
     </div>
   );
 }

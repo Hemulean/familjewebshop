@@ -1,11 +1,12 @@
 import React from "react";
-import NavBar from "./NavBar";
+import TopBar from "./TopBar";
 function Header() {
   return (
-    <header className="bg-dark-green border-gray-200 px-4 lg:px-6  dark:bg-gray-800 py-10">
+    <header className="bg-dark-green border-gray-200 px-4 lg:px-6 py-2 dark:bg-gray-800 ">
+      <TopBar />
       <a href="" className="flex items-center justify-center">
         <img
-          src="/public/img/logofamily.png"
+          src="/img/logofamily.png"
           className="mr-3 h-6 sm:h-9"
           alt="Flowbite Logo"
         />
