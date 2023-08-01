@@ -36,8 +36,13 @@
   .category-cards{
     /* max-height: 16.6rem; */
   }
+  .card{
+    width: 17rem;
+    height:20rem;
+  }
   .card-img{
-   min-height:100%; 
+    width: 17rem;
+    height:20rem;
 
   }
   .zoom {
