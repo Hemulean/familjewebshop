@@ -2,7 +2,7 @@ import React from "react";
 
 function CategoryCards() {
   return (
-    <div className="mx-4 grid lg:grid-cols-3 gap-3">
+    <div className="mx-4 grid lg:grid-cols-3 gap-3 lg:text-2xl md:text-xl sm:text-md ">
       <div class="relative overflow-hidden  cursor-pointer  col-span-2 row-span-2 ">
         <p className="card-text">Konstverk</p>
 
@@ -12,7 +12,7 @@ function CategoryCards() {
           alt="Flower and sky"
         />
       </div>
-      <div class="relative overflow-hidden  cursor-pointer  ">
+      <div className="relative  cursor-pointer  ">
         <p className="card-text">Inredning</p>
         <img
           class="object-cover card-img"
@@ -20,7 +20,7 @@ function CategoryCards() {
           alt="furniture"
         />
       </div>
-      <div class="relative overflow-hidden  cursor-pointer  ">
+      <div className="relative overflow-hidden  cursor-pointer  ">
         <p className="card-text">Smycken</p>
         <img
           class="object-cover card-img"
