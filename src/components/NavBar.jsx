@@ -23,9 +23,10 @@ function NavBar() {
   }, []);
 
   return (
-    <div
-      className={`px-4  nav ${isScrolled ? "nav-scrolled" : "navbar-color"}`}
-    >
+    <div className={`  nav ${isScrolled ? "nav-scrolled" : "navbar-color"}`}>
+      <div>
+        <TopBar />
+      </div>
       <ul className="flex px-3 py-2 font-medium justify-around">
         <li>
           <a

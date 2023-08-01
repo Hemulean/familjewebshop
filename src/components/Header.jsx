@@ -2,8 +2,7 @@ import React from "react";
 import TopBar from "./TopBar";
 function Header() {
   return (
-    <header className="bg-dark-green border-gray-200 px-4 lg:px-6 py-2 dark:bg-gray-800 ">
-      <TopBar />
+    <header className="bg-dark-green border-gray-200 px-4 lg:px-6 py-5 dark:bg-gray-800 ">
       <a href="" className="flex items-center justify-center">
         <img
           src="/img/logofamily.png"

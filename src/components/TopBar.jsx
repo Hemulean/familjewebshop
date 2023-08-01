@@ -22,8 +22,12 @@ function TopBar() {
   }, []);
 
   return (
-    <div class="fixed top-nav">
-      <ul className="flex px-3 py-2 font-medium justify-end gap-5 mx-3  ">
+    <div
+      className={`top-nav bg-dark-green w-full nav ${
+        isScrolled ? "nav-scrolled" : "bg-dark-green"
+      }`}
+    >
+      <ul className="flex py-2 font-medium justify-end gap-5 mx-3  ">
         <li>
           <a
             href="#"
