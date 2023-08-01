@@ -28,6 +28,22 @@ function CategoryCards() {
           alt="furniture"
         />
       </div>
+      <div className="relative overflow-hidden  cursor-pointer  ">
+        <p className="card-text">Vintage</p>
+        <img
+          class="object-cover card-img"
+          src="/img/vintage.jpg"
+          alt="furniture"
+        />
+      </div>
+      <div className="relative overflow-hidden  cursor-pointer  ">
+        <p className="card-text">Tillbehör</p>
+        <img
+          class="object-cover card-img"
+          src="/img/tillbehör.jpg"
+          alt="furniture"
+        />
+      </div>
     </div>
   );
 }
