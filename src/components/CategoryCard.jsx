@@ -2,7 +2,7 @@ import React from "react";
 
 function CategoryCards() {
   return (
-    <div className="mx-4 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:grid-rows-2 gap-2 lg:text-2xl md:text-xl sm:text-sm mx-1 ">
+    <div className="mx-6 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:grid-rows-2 gap-2 lg:text-2xl md:text-xl sm:text-sm mx-1 ">
       <div className="relative overflow-hidden  cursor-pointer col-span-2 row-span-2 ">
         <p className="card-text zoom">Konstverk</p>
 
