@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <NavBar />
-      <Banner />
+      {/* <Banner /> */}
       <StartPage />
 
       <Footer />

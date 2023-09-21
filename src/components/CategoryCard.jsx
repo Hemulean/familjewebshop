@@ -2,8 +2,8 @@ import React from "react";
 
 function CategoryCards() {
   return (
-    <div className="items-center m-0">
-      <div className="mx-10  grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:grid-rows-2 gap-2 lg:text-2xl md:text-xl sm:text-sm mx-1 ">
+    <div className="flex justify-center items-center mx-10">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:grid-rows-2 gap-4 lg:text-2xl md:text-xl sm:text-sm mx-1 ">
         <div className="card relative overflow-hidden  cursor-pointer">
           <p className="card-text zoom">Konstverk</p>
 
